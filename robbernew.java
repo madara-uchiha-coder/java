@@ -32,30 +32,30 @@ public class robbernew {
             int case2=0;
             int i=2;
             int j=2;
-        while(j<=nums.length-3){
+        while(j<=nums.length){
             int sum1=0;
-        while(i<nums.length-1){
-            sum1+=nums[i];
-            i=i+j;
-        }
-        if (case2<sum1) {
+            for(i=1;i<nums.length;i=i+j){
+                sum1+=nums[i];
+            }
+            if (case2<sum1) {
             case2=sum1;
         }
     j++;}
-        i=1;
         j=2;
-        while(j<=nums.length-3){
+        while(j<=nums.length){
             int sum1=0;
-        while(i<nums.length-1){
-            sum1+=nums[i];
-            i=i+j;
-        }
-        if (case2<sum1) {
+            for(i=0;i<nums.length-2;i=i+j){
+                sum1+=nums[i];
+            }
+            if (case2<sum1) {
             case2=sum1;
         }
-        j++;}
+    j++;}
         return case2;
         }
+
+
+
         int sum2=0;
         int i=0;
         int j=2;
