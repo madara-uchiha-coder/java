@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "spiralmatrix",
+            "request": "launch",
+            "mainClass": "spiralmatrix",
+            "projectName": "java_7e9f61c3"
+        },
+        {
+            "type": "java",
             "name": "dice",
             "request": "launch",
             "mainClass": "dice",
