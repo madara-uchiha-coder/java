@@ -2,7 +2,7 @@ public class simplemajoorproblem {
     public static void main(String[] args) {
         int[] arr ={5,2,1};
         int[] arr2=new int[8];
-        System.out.println(sol("", "0"));
+        System.out.println(sol("", "49"));
     }
     static int sol(String p,String s){
         if(s.isEmpty()){
